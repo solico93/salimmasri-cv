@@ -1,0 +1,113 @@
+body {
+  background-color: white;
+}
+h1 {
+  color: blue;
+}
+div
+{
+	color:black;
+}
+p {
+  color: black;
+}
+
+.num1{
+  background-color: rgb(153, 255, 204);
+  color: white;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+}
+.num2{
+  background-color: rgb(153, 255, 204);
+  color: white;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+}
+.num3{
+  background-color: rgb(153, 255, 204);
+  color: white;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+}
+.num4{
+  background-color: rgb(153, 255, 204);
+  color: white;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+}
+
+#name{
+	font-size:65px;
+	text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+i:hover {
+  background-color: blue;
+    border-radius: 25px;
+  
+}
+#demo{
+	font-size:70px;
+	text-color:red;
+}
+#click1
+{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#hide
+{
+  background-color: #f44336; /* red */
+  border-radius: 80px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;	
+}
+#show
+{
+  background-color:#555555; /* black */
+  border-radius: 80px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;	
+}
+#button
+{
+	text-align:center;
+}
+
