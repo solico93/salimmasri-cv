@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #20f8e0;
 }
 h1 {
   color: blue;
@@ -13,28 +13,28 @@ p {
 }
 
 .num1{
-  background-color: rgb(153, 255, 204);
+  background-color:white;
   color: white;
   border-radius: 25px;
   margin: 20px;
   padding: 20px;
 }
 .num2{
-  background-color: rgb(153, 255, 204);
+  background-color: white;
   color: white;
   border-radius: 25px;
   margin: 20px;
   padding: 20px;
 }
 .num3{
-  background-color: rgb(153, 255, 204);
+  background-color: white;
   color: white;
   border-radius: 25px;
   margin: 20px;
   padding: 20px;
 }
 .num4{
-  background-color: rgb(153, 255, 204);
+  background-color: white;
   color: white;
   border-radius: 25px;
   margin: 20px;
@@ -50,6 +50,14 @@ p {
   grid-template-columns: auto auto auto;
   background-color: #2196F3;
   padding: 10px;
+}
+@media only screen and (max-width: 530px) {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
 }
 .grid-container1 {
   display: grid;
