@@ -1,79 +1,88 @@
 body {
-  background-color: #20f8e0;
+  background-color: #ffc900;
+}
+#name{
+	font-size:65px;
+	text-align: center;
+	color:#262640;
+   font-style: oblique;
 }
 h1 {
-  color: blue;
+  color:#262640;
 }
+
 div
 {
 	color:black;
 }
-p {
+ul{
   color: black;
+  font-size:20px;
 }
 
 .num1{
-  background-color:white;
+  background-color:	#E0E0E0;
   color: white;
   border-radius: 25px;
   margin: 20px;
   padding: 20px;
 }
 .num2{
-  background-color: white;
+  background-color:#E0E0E0;
   color: white;
   border-radius: 25px;
   margin: 20px;
   padding: 20px;
 }
 .num3{
-  background-color: white;
+  background-color: #E0E0E0;
   color: white;
   border-radius: 25px;
   margin: 20px;
   padding: 20px;
 }
 .num4{
-  background-color: white;
+  background-color: #E0E0E0;
   color: white;
   border-radius: 25px;
   margin: 20px;
   padding: 20px;
 }
 
-#name{
-	font-size:65px;
-	text-align: center;
-}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+  background-color:#FF8C00;
+  padding: 5px;
+   height: auto;
 }
 @media only screen and (max-width: 530px) {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  background-color: #2196F3;
-  padding: 10px;
+  background-color: #FF8C00;
+  padding: 5px;
+   height: auto;
+
 }
-}
-.grid-container1 {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: #2196F3;
-  padding: 10px;
 }
 .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+.grid-item2{
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 25px;
   text-align: center;
+  border-radius:25px;
 }
 i:hover {
-  background-color: blue;
+  background-color: #FF8C00;
     border-radius: 25px;
   
 }
