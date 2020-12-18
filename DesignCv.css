@@ -26,6 +26,8 @@ ul{
   border-radius: 25px;
   margin: 20px;
   padding: 20px;
+  
+  
 }
 .num2{
   background-color:#E0E0E0;
@@ -68,23 +70,57 @@ ul{
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 25px;
-  text-align: center;
-}
-.grid-item2{
-  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 25px;
   text-align: center;
-  border-radius:25px;
+
+}
+.grid-item2{
+  background-color: #E0E0E0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  border-radius:40px;
+  margin:center;
+  color:#007bb5;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 5px;
+  height: auto;
+  width:20%;
+  margin: auto;
+}
+i.
+{
+	
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius:5px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 i:hover {
   background-color: #FF8C00;
     border-radius: 25px;
   
+}
+a{
+	  text-decoration: none;
+}
+ a:hover {
+  background-color: powderblue;
 }
 #demo{
 	font-size:70px;
@@ -100,6 +136,7 @@ i:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+ border-radius: 80px;
 }
 #hide
 {
@@ -126,5 +163,8 @@ i:hover {
 #button
 {
 	text-align:center;
+	
 }
+
+
 
