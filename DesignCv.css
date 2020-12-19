@@ -74,7 +74,6 @@ ul{
   padding: 20px;
   font-size: 25px;
   text-align: center;
-
 }
 .grid-item2{
   background-color: #E0E0E0;
@@ -94,10 +93,9 @@ ul{
   width:20%;
   margin: auto;
 }
-i.
-{
+
 	
-}
+
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -114,18 +112,20 @@ i.
 i:hover {
   background-color: #FF8C00;
     border-radius: 25px;
-  
 }
+
 a{
-	  text-decoration: none;
+	text-decoration: none;
 }
  a:hover {
   background-color: powderblue;
 }
+
 #demo{
 	font-size:70px;
 	text-color:red;
 }
+
 #click1
 {
   background-color: #4CAF50; /* Green */
@@ -138,33 +138,15 @@ a{
   font-size: 16px;
  border-radius: 80px;
 }
-#hide
-{
-  background-color: #f44336; /* red */
-  border-radius: 80px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;	
-}
-#show
-{
-  background-color:#555555; /* black */
-  border-radius: 80px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;	
-}
+
 #button
 {
 	text-align:center;
-	
 }
+
+
+
+
 
 
 
